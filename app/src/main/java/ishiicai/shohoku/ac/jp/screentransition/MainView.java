@@ -46,8 +46,7 @@ public class MainView extends View {
         }
     }
 
-    @Override
-    public  boolean onTouchEcent(MotionEvent event){
+    public  boolean onTouchEvent(MotionEvent event){
         int x = (int) event.getX();
         int y = (int) event.getY();
 
