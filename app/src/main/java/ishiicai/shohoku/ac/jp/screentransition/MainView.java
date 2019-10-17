@@ -9,7 +9,6 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import java.text.AttributedCharacterIterator;
 
 public class MainView extends View {
     public final int FIRST = 1;     //状態を表す定数1
@@ -45,6 +44,7 @@ public class MainView extends View {
             Log.d("error", "never come here");
         }
     }
+
 
     public  boolean onTouchEvent(MotionEvent event){
         int x = (int) event.getX();
